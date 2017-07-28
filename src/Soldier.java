@@ -7,7 +7,7 @@ public abstract class Soldier implements GroundFighting, AirFighting{
     protected String rank;
     protected int serialNumber;
 
-    public Soldier () {
+    public Soldier() {
     }
 
     public Soldier(String name, String rank, int serialNumber) {
@@ -17,7 +17,7 @@ public abstract class Soldier implements GroundFighting, AirFighting{
     }
 
     public String sleep() {
-        System.out.println("zzzz");
+        System.out.println("zzzzzz");
         return "zzzzzz";
     }
 
@@ -27,8 +27,8 @@ public abstract class Soldier implements GroundFighting, AirFighting{
     }
 
     public String walk () {
-        System.out.println("steady pace");
-        return "steady pace";
+        System.out.println("marching in formation");
+        return "marching in formation";
     }
 
     public abstract void speak ();

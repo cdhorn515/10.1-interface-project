@@ -7,11 +7,11 @@ public class Bomb extends Soldier implements MoreFighting{
         super(name, rank, serialNumber);
     }
 
-    public void dropBomb() {
+    public void fire() {
 
     }
 
-    public void useSword() {
+    public void useWeapon() {
 
     }
 
